@@ -1,0 +1,83 @@
+.header {
+  min-height: 1118px;
+  background-color: $yellow;
+  border-radius: 0 0 500px 500px;
+  margin-bottom: 100px;
+  &-container {
+    max-width: 1725px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+  &-top {
+    padding-top: 60px;
+    padding-bottom: 83px;
+    display: flex;
+    align-items: center;
+  }
+  &-buttons {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 0 34px;
+  }
+  &-main {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 57px;
+  }
+  &-heading {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 34px;
+    line-height: cal(81 / 54);
+    color: $secondary-color;
+    span {
+      color: $primary-color;
+    }
+  }
+  &-desc {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  margin-bottom: 52px;
+  color: $gray-dark;
+  }
+  &-action {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+    .btn--primary {
+      padding: 22px 38px;
+    }
+  }
+}
+.menu {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0 80px;
+  &-link {
+    color: inherit;
+  }
+}
+.watch {
+  display: flex;
+  align-items: center;
+  gap: 0 32px;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  color: inherit;
+  &-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100rem;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
