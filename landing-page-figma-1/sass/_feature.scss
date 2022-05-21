@@ -65,6 +65,7 @@
     max-width: 1470px;
     .feature-heading {
       max-width: 393px;
+
     }
     .feature-text {
       max-width: 568px;
@@ -77,6 +78,7 @@
     max-width: 1490px;
     .feature-heading {
       max-width: 347px;
+
     }
     .feature-text {
       max-width: 596px;
@@ -86,9 +88,10 @@
     }
   }
   &-section:nth-of-type(4) {
-    max-width: 1575px;
+    max-width: 1545px;
     .feature-heading {
       max-width: 420px;
+
     }
     .feature-text {
       max-width: 645px;
@@ -98,10 +101,11 @@
     }
   }
   &-section:nth-of-type(5) {
-    max-width: 1515px;
     margin-bottom: 150px;
+    max-width: 1486px;
     .feature-heading {
       max-width: 274px;
+
     }
     .feature-text {
       max-width: 540px;
@@ -117,6 +121,5 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-weight: 400;
   }
 }

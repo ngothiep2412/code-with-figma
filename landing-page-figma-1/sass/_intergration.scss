@@ -16,14 +16,32 @@
     width: 100%;
     max-width: 688px;
   }
-
+  &-caption {
+    color: #525596;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.2em;
+    padding-left: 110px;
+    position: relative;
+    &:before {
+      content: "";
+      width: 80px;
+      height: 1px;
+      background-color: #525596;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
   &-heading {
     font-family: $font-secondary;
     margin-bottom: 30px;
     line-height: 160%;
   }
   &-text {
-    margin-bottom: 44px;
     line-height: 180%;
+    margin-bottom: 44px;
   }
 }
